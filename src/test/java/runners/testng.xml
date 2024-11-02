@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Cucumber Suite">
+    <test verbose="2" preserve-order="true" name="Cucumber Test in Order">
+        <classes>
+            <class name="runners.TestRunnerLogin"/>
+            <class name="runners.TestRunnerInventory"/>
+            <class name="runners.TestRunnerCart"/>
+            <class name="runners.TestRunnerCheckout"/>
+            <class name="runners.TestRunnerLogout"/>
+        </classes>
+    </test>
+</suite>
